@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'brandon_bold';
+    src: url('fonts/Brandon_bld-webfont.eot');
+    src: url('fonts/Brandon_bld-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Brandon_bld-webfont.woff2') format('woff2'),
+         url('fonts/Brandon_bld-webfont.woff') format('woff'),
+         url('fonts/Brandon_bld-webfont.ttf') format('truetype'),
+         url('fonts/Brandon_bld-webfont.svg#brandon_grotesquebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a,a:hover {
+	text-decoration:none
+}
+.corporativo {
+	background-color:#2a2a2a;
+	color:#fff;
+	font-size:13px;
+	line-height:27px
+}
+.corporativo a {
+	color:#fff;
+	display:inline-block;
+	font-size:12px;
+	line-height:27px;
+	padding:0 16px
+}
+.corporativo a:hover {
+	background-color:#000
+}
+.corporativo a:first-child {
+	padding-left:0
+}
+.fono-compras {
+	text-align:right
+}
+.links {
+	line-height:34px
+}
+.links div {
+	text-align:right
+}
+.links a {
+	color:#000;
+	font-family:'brandon_bold';
+	font-size:11px;
+	line-height:34px;
+	padding:0 6px
+}
+.links a:hover {
+	text-decoration:underline
+}
+.links a:last-child {
+	padding-right:0
+}
+.logo {
+	height:72px
+}
+.logo a {
+	display:inline-block
+}
+.masonry-entry {
+	margin-bottom:15px;
+	width:161px
+}
+.entry-twitter {
+	background-color:#000;
+	color:#fff
+}
+.w2 {
+	width:337px
+}
+
+@media (max-width: 767px) {
+	.corporativo a {
+		padding:0 4px
+	}
+	.fono-compras {
+		text-align:left
+	}
+}
